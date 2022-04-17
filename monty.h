@@ -34,7 +34,20 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
-void push(stack_t **stack, unsigned int line_number);
+void _errors(int errornum, unsigned int line_number, stack_t **stack);
+
+void _errors2(int errornum, unsigned int __attribute__((unused)) line_number,
+			      stack_t **stack);
+
+void checkFunction(char *token, unsigned int line_number, stack_t **head);
+
+int check_push(char *s);
+
+int _parseArg(char *c);
+
+void free_list(stack_t *stack);
+
+rrrr push(stack_t **stack, unsigned int line_number);
 void pall(stack_t **stack, unsigned int line_number);
 void check_command(stack_t **stack, char *op, unsigned int line_num);
 int space_count(char *str, char *delimiter);
@@ -51,4 +64,4 @@ void swap(stack_t **stack, unsigned int line_number);
 void add(stack_t **stack, unsigned int line_number);
 void nop(stack_t **stack, unsigned int line_number);
 
-#endif
+#endif 
