@@ -57,7 +57,6 @@ void monty_exit(stack_t **stack);
 void read_file(stack_t **stack);
 FILE *monty_init(int argc, char *file);
 char **ndsplitter(char *fun, char *delimiter);
-void free_list(char **list);
 int isonlyspaces(char *str);
 void pint(stack_t **stack, unsigned int line_number);
 void push(stack_t **stack, unsigned int line_number);
