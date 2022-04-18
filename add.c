@@ -2,7 +2,7 @@
 
 /**
  * add - adds a element to the top of the stack
- * @head: lists head
+ * @head: lists head word
  * @line_number: line number read
  *
  */
