@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * checkfunction - selects the correct function input by the user.
+ * checkFunction - selects the correct function input by the user.
  * @token: input operator
  * @line_number: line number read
  * @head: pointer to the head of the list
