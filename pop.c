@@ -4,7 +4,6 @@
  * pop - removed the last from the stack
  * @head: pointer to the lists head
  * @line_number: line number
- * @_errors: checks for errors
  */
 
 void pop(stack_t **head, unsigned int line_number)
