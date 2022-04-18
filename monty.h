@@ -7,6 +7,8 @@
 #include <ctype.h>
 #include <unistd.h>
 
+char *second;
+
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
@@ -51,8 +53,6 @@ int check_push(char *s);
 int _parseArg(char *c);
 
 void free_list(stack_t *stack);
-
-char *second;
 
 void pall(stack_t **stack, unsigned int line_number);
 void check_command(stack_t **stack, char *op, unsigned int line_num);
