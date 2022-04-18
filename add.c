@@ -15,6 +15,6 @@ void add(stack_t **head, unsigned int line_number)
 		_errors(6, line_number, head);
 
 	red = (*head)->n + (*head)->next->n;
-	f_pop(head, line_number);
+	pop(head, line_number);
 	(*head)->n = red;
 }
