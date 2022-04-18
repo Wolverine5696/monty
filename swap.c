@@ -4,7 +4,7 @@
  * swap - swaps the value of the last two elements added to the stack
  * @stack: pointer to the lists head
  * @line_number: line number read
- *
+ * @_errors: checks for errors
  */
 
 void swap(stack_t **stack, unsigned int line_number)
