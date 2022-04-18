@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * main - print all the stacks from last to first
+ * pall - print all the stacks from last to first
  *
  * @head: pointer to lists head
  * @line_number: line numbers read
