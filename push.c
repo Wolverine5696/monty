@@ -5,8 +5,6 @@
  *
  * @stack: pointer to the list's head
  * @line_number: line number read to determine order
- * @_errors: functions that check for errors
- * @_parsearg: checks if second arg is a integer
  */
 
 void push(stack_t **stack, unsigned int line_number)
