@@ -43,9 +43,6 @@ typedef struct instruction_s
 
 void _errors(int errornum, unsigned int line_number, stack_t **stack);
 
-void _errors2(int errornum, unsigned int __attribute__((unused)) line_number,
-      stack_t **stack);
-
 void checkFunction(char *token, unsigned int line_number, stack_t **head);
 
 int check_push(char *s);
@@ -65,4 +62,4 @@ void swap(stack_t **stack, unsigned int line_number);
 void add(stack_t **stack, unsigned int line_number);
 void nop(stack_t **stack, unsigned int line_number);
 
-#endif 
+#endif

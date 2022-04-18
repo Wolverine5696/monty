@@ -18,7 +18,7 @@ void checkFunction(char *token, unsigned int line_number, stack_t **head)
 	};
 	int x = 0;
 
-	while (x < 15)
+	while (x < 10)
 	{
 		if (strcmp(func_code[x].opcode, token) == 0)
 		{
@@ -27,7 +27,7 @@ void checkFunction(char *token, unsigned int line_number, stack_t **head)
 		}
 		x++;
 	}
-	if (x == 15)
+	if (x == 10)
 	{
 		fprintf(stderr, "L%u: unknown instruction %s\n",
 			line_number, token);
